@@ -1,0 +1,76 @@
+.container {
+  padding: 0 !important;
+  margin-top: 100px !important;
+  width: 100% !important;
+  height: 60vh !important;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.about-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
+
+.container-about h2 {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-about h3 {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  font-size: 20px;
+  font-family: monsterrat;
+  font-weight: 500;
+}
+
+.whorwe-about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 50vh;
+  background-color: white;
+}
+.whorwe-about p {
+  text-align: justify;
+  display: flex;
+  align-items: start;
+  height: 16em;
+  font-size: 17px;
+  font-family: monsterrat;
+}
+
+.hr-style hr {
+  color: #ececec;
+  background-color: #ececec;
+  height: 1px;
+}
+
+.about-h3 {
+  text-align: center;
+  width: 45%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2em;
+}

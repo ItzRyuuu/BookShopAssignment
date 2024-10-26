@@ -1,0 +1,170 @@
+.cart {
+  padding: 0px 30px;
+  width: 20px;
+  cursor: pointer;
+}
+.cart img {
+  width: 30px;
+}
+.cart-btn {
+  font-size: 2em;
+  color: black;
+  width: 70px;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+.mycart h2 {
+  position: relative;
+  top: 0.5em;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 4em;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.cart-product {
+  width: 100%;
+  height: 23vh;
+  border: 0px solid;
+}
+
+.order-info {
+  text-align: center;
+  width: 50%;
+}
+
+.book-cart {
+  top: 1em;
+  position: relative;
+  display: flex;
+}
+
+.book-cart img {
+  width: 100px;
+  height: 90%;
+}
+
+.book-title {
+  width: 50%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.book-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.counter {
+  position: relative;
+  display: flex;
+  top: 0px;
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: left;
+  line-height: 1.5em;
+}
+.cart-price {
+  width: 20%;
+  position: relative;
+  margin: auto;
+}
+.cart-price p {
+  font-size: 14px;
+  text-align: center;
+}
+.checkout-container {
+  width: 100%;
+  background-color: whitesmoke;
+}
+.checkout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.checkout .checkout-address {
+  width: 50%;
+  background-color: beige;
+}
+
+.checkout-price {
+  display: flex;
+  width: 100%;
+}
+.price {
+  font-size: 15px;
+  border: 0px solid black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  line-height: 2em;
+}
+
+.price-title,
+.actual-price {
+  text-align: center;
+}
+.price-title {
+  width: 50%;
+}
+.actual-price {
+  width: 150%;
+}
+.total-style {
+  height: 2vh;
+}
+
+table {
+  width: 90%;
+}
+
+td {
+  padding: 1px;
+  font-family: lato;
+}
+
+td hr {
+  width: 150%;
+}
+
+td:first-child {
+  text-align: left;
+  width: 70%;
+}
+
+td:last-child {
+  text-align: right;
+  width: 30%;
+}
+
+th {
+  text-align: center;
+  padding: 2px;
+  background-color: #d3d3d3;
+}

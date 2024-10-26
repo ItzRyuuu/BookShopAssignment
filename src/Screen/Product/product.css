@@ -1,0 +1,151 @@
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 0;
+  margin-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  font-size: 17px;
+}
+.title h2 {
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+.hr-style hr {
+  color: #ececec;
+  background-color: #ececec;
+  height: 1px;
+}
+
+.cate-btn {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.display-product {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-container {
+  width: 300px;
+}
+
+.combo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 1.5em;
+  margin-bottom: 2em;
+  height: auto;
+}
+
+.product-card {
+  position: relative;
+  width: 150px;
+  height: auto;
+}
+.product-Image {
+  width: 100%;
+  height: 30vh;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2),
+    0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-caption {
+  padding-top: 0.5em;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 1.2em;
+  margin-top: 7px;
+}
+
+.product-title h3 {
+  font-weight: 500;
+}
+
+.addcart-btn {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-author {
+  color: #434343;
+  font-size: 14px;
+}
+.book-price {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #575757;
+}
+
+.search-cart {
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background: #f5f4f4;
+  padding: 6px 25px;
+  border-radius: 50px;
+}
+.search-box input {
+  width: 100%;
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #000000;
+  font-size: 18px;
+  max-width: 100%;
+}
+.search-box input::placeholder {
+  font-family: "Times New Roman", Times, serif;
+  color: #a9a9a9;
+}
+.search-box img {
+  width: 20px;
+  cursor: pointer;
+}

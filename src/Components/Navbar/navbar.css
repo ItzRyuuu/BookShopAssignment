@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0px 5%;
+  z-index: 1000;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+ul {
+  position: relative;
+  right: 6em;
+  flex: 1;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px 35px;
+  font-size: 17px;
+  cursor: pointer;
+}
+ul li a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  transition: red 0.9s;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
